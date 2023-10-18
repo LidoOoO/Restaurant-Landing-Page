@@ -1,0 +1,319 @@
+@media screen and (min-width:1401px) {
+    .one .parant {
+        max-width: 1400px;
+        padding-top: 80px;
+        width: 80%;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+    .one .parant {
+        max-width: 1400px;
+        padding-top: 80px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .three .parant .imgs {
+        height: 1050px;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .one .parant {
+        max-width: 960px;
+        padding-top: 100px;
+        justify-content: space-between;
+        justify-content: center;
+    }
+    .three .parant .imgs {
+        height: 880px;
+    }
+}
+
+@media screen and (max-width:958px) {
+    .three .parant .imgs {
+        height: 800px;
+    }
+
+    .two .parant .cards .cardo {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardt {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardth {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .one {
+        height: fit-content;
+    }
+
+
+    .one .parant {
+        max-width: 720px;
+        padding-top: 150px;
+        width: 80%;
+        justify-content: center;
+    }
+    .one .parant .img {
+        width:350px;
+        height:350px;
+        background-size: cover;
+    }
+    .menui {
+        display: block;
+    }
+    .navbar .parant ul {
+        transform: translateX(100%);
+            width: 350px;
+            height: 100%;
+            right: 0;
+            top: 0;
+            position: absolute;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: white;
+            padding-inline: 10px;
+    }
+    .navbar .parant ul li {
+        padding-top: 30px;
+    }
+    .navbar .parant .mode {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .two .parant .cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .two .parant .cards .cardo {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardt {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardth {
+        width: 45%;
+    }
+
+    .three .parant .imgs {
+        height: 720px;
+    }
+
+    .three {
+        margin-top: 450px;
+    }
+
+    .footer .parant {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .footer .parant .ab {
+        width: 45%;
+        order: 1;
+    }
+
+    .footer .parant .sub {
+        width: 100%; 
+        order: 2;
+    }
+
+    .footer .parant .con {
+        width: 45%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .three .parant .imgs {
+        height: 650px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .one .parant {
+        max-width: 540px;
+        padding-top: 260px;
+        justify-content:center;
+    }
+    .menui {
+        display: block;
+    }
+    .navbar .parant ul {
+        transform: translateX(100%);
+            width: 350px;
+            height: 100%;
+            right: 0;
+            top: 0;
+            position: absolute;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: white;
+            padding-inline: 10px;
+    }
+    .navbar .parant ul li {
+        padding-top: 30px;
+    }
+    .navbar .parant .mode {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .two .parant .cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .two .parant .cards .cardo {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardt {
+        width: 45%;
+    }
+
+    .two .parant .cards .cardth {
+        width: 45%;
+    }
+
+    .three .parant .imgs {
+        height: 555px;
+    }
+
+    .three {
+        margin-top: 450px;
+    }
+
+    .four .parant .us > div {
+        width: 100%;
+    }
+
+    .footer .parant {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .footer .parant .ab {
+        width: 45%;
+        order: 1;
+    }
+
+    .footer .parant .sub {
+        width: 100%; 
+        order: 2;
+    }
+
+    .footer .parant .con {
+        width: 45%;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:591px)
+{
+    .three .parant .imgs {
+        height: 500px;
+    }
+}
+@media screen and (max-width:576px) {
+    .one .parant {
+        padding-inline: 15px;
+        padding-top: 220px;
+        justify-content: center;
+    }
+    .one .parant .img {
+        width:400px;
+        height:400px;
+        background-size: cover;
+    }
+    .menui {
+        display: block;
+    }
+    .navbar .parant ul {
+        transform: translateX(100%);
+            width: 350px;
+            height: 100%;
+            right: 0;
+            top: 0;
+            position: absolute;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: white;
+            padding-inline: 10px;
+    }
+    .navbar .parant ul li {
+        padding-top: 30px;
+    }
+    .navbar .parant .mode {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .two .parant .cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .two .parant .cards .cardo {
+        width: 100%;
+    }
+
+    .two .parant .cards .cardt {
+        width: 100%;
+    }
+
+    .two .parant .cards .cardth {
+        width: 100%;
+    }
+
+    .three .parant .imgs{
+        height: 450px;
+    }
+
+
+    .three {
+        margin-top: 1000px;
+    }
+
+    .footer {
+        padding-bottom: 150px;
+    }
+
+    .footer .parant {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .footer .parant .ab {
+        width: 45%;
+        order: 1;
+    }
+
+    .footer .parant .sub {
+        width: 100%; 
+        order: 2;
+    }
+
+    .footer .parant .con {
+        width: 45%;
+        order: 1;
+    }
+}
